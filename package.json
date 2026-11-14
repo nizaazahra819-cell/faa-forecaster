@@ -1,0 +1,19 @@
+{
+  "name": "faa-forecaster",
+  "version": "1.0.0",
+  "description": "Forecast FAA outage attribution prices per minute (5 quantiles)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "mathjs": "^12.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^7.0.2"
+  }
+}
